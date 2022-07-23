@@ -1,0 +1,33 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+}
+
+.input {
+  width: 70%;
+  height: 30px;
+  width: 500px;
+  padding: 5px;
+}
+
+.btn {
+  width: 30%;
+  width: 180px;
+  background-color: #d200fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  width: 200px;
+  transition: 0.5s;
+}
+
+.paragraph {
+  font-size: 22px;
+}
