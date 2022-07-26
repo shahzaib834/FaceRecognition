@@ -4,7 +4,7 @@ import Logo from './components/Logo/Logo';
 import Rank from './components/Rank/Rank';
 import Form from './components/Form/Form';
 
-function App() {
+const App = () => {
   return (
     <div>
       <Navigation />
@@ -13,6 +13,6 @@ function App() {
       <Form />
     </div>
   );
-}
+};
 
 export default App;

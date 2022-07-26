@@ -31,3 +31,25 @@
 .paragraph {
   font-size: 22px;
 }
+
+.image {
+  margin-top: 15px;
+  width: 450px;
+  height: 380px;
+  border-radius: 5px;
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#api {
+  margin-top: 5px;
+  color: white;
+  display: none;
+}
