@@ -1,5 +1,6 @@
 {
   "name": "facerecognition",
+  "homepage": "https://shahzaib834.github.io/FaceRecognition",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
