@@ -4,9 +4,7 @@ import './form.css';
 
 const Form = () => {
   const [input, setInput] = useState('');
-  const [imageUrl, setImageUrl] = useState(
-    'https://images2.alphacoders.com/702/702389.jpg'
-  );
+  const [imageUrl, setImageUrl] = useState('');
   const [box, setBox] = useState({});
 
   const onButtonClick = async (e) => {
@@ -57,12 +55,16 @@ const Form = () => {
       </form>
 
       <div>
-        <img
-          alt='face-detection'
-          src={imageUrl}
-          className='image'
-          id='inputimage'
-        />
+        {imageUrl ? (
+          <img
+            alt='face-detection'
+            src={imageUrl}
+            className='image'
+            id='inputimage'
+          />
+        ) : (
+          <></>
+        )}
       </div>
       <div id='api'>{'Sorry, the api is not operational. Try Again later'}</div>
     </div>
